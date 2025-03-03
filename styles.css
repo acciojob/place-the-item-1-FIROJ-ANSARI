@@ -1,2 +1,17 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    justify-content: space-between; /* First and last items touch edges */
+    gap: 10px; /* Spacing between items */
+}
 
-/* Your CSS Code here. */
+.item {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
